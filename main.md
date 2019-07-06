@@ -80,15 +80,19 @@ class: center, middle, blue
 ---
 ### 手順
 
-- (helm)Ingress コントローラーを作成
+- (helm) Ingress コントローラーを作成
 
-- (az)IPアドレスにFQDNを設定
+- (az) IPアドレスにFQDNを設定
 
-- (helm)cert-manager をインストール
+- (helm) cert-manager をインストール
 
-- (kubectl)ClusterIssuer を作成
+- (kubectl) ClusterIssuer を作成
 
-- (kubectl)Ingress リソースを作成
+- (kubectl) Ingress リソースを作成
+
+---
+
+<center><img src="mattermost-login.png" width=100%></center>
 
 ---
 ### 困った点
@@ -124,10 +128,6 @@ $ helm install --name cert-manager --namespace cert-manager \
 - Ingress に多少詳しくなった
 
 - Makefile 難しい…
-
----
-
-<center><img src="mattermost-login.png" width=100%></center>
 
 ---
 ### 構成
